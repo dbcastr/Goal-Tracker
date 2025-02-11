@@ -1,0 +1,14 @@
+{
+    "name": "Goal Tracker",
+    "version": "1.0.0",
+    "description": "A chrome extension to make daily goals.",
+    "manifest_version": 3,
+    "author": "Daniel Castro",
+    "action":{
+        "default_popup": "popup.html",
+        "default_title": "Goal Tracker",
+        "default_icon": "icon.png"
+    },
+    "permisions":["storage"]
+
+}
